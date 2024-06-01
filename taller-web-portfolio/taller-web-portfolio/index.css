@@ -1,0 +1,127 @@
+/* #region FUENTES */
+@font-face {
+    font-family: lemonMilk;
+    src: url(fonts/lemon_milk/LEMONMILK-Regular.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: mont;
+    src: url(fonts/mont/Mont-ExtraLightDEMO.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: boldFont;
+    src: url(fonts/the_bold_font/THE\ BOLD\ FONT\ -\ FREE\ VERSION\ -\ 2023.ttf);
+    font-weight: normal;
+}
+/* #endregion */
+
+/* #region GENERAL */
+body {
+    padding: 0;
+    margin: 0;
+}
+.font-1 {
+    font-family: mont;
+}
+.font-2 {
+    font-family: lemonMilk;
+}
+.font-3 {
+    font-family: boldFont;
+}
+h1, h2, h3, h4, h5, h6, span, a {
+    z-index: 10;
+}
+/* #endregion */
+
+/* #region TEMAS PERSONALIZABLES */
+/* TEMA JUJUTSU */
+.mario-theme {
+    background: linear-gradient(rgb(233, 225, 225) ,rgb(173, 31, 12), rgb(25, 15, 163));
+    color: white;
+}
+.mario-theme a {
+    color: white;
+}
+/*endsection*/
+
+
+/* #region PARA TODAS LAS SECCIONES */
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 6%;
+    box-sizing: border-box;
+}
+
+.top-text {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.bottom-text {
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.text-left {
+    max-width: 40vw;
+}
+/* #endregion */
+
+/* #region HOBBIES */
+.card-list {
+    display: flex;
+    width: 100%;
+    flex-basis: 0;
+    flex: 1 1 0px;
+    justify-content: space-between;
+    padding: 6px;
+}
+.card-1{
+    padding: 6px;
+    background: linear-gradient(rgb(76, 146, 204) ,rgb(235, 220, 218));
+}
+.card-2{
+    padding: 6px;
+    background: linear-gradient(rgb(76, 204, 125) ,rgb(86, 201, 201));
+}
+.card-3{
+    padding: 6px;
+    background: linear-gradient(rgb(25, 81, 201) ,rgb(209, 75, 34));
+}
+.card-4{
+    padding: 6px;
+    background: linear-gradient(rgb(9, 190, 196) ,rgb(209, 75, 34));
+}
+.card img {
+    width: 350px;
+    height: 250px;
+}
+/* #endregion */
+
+/* #region DETAIL */
+#detail {
+    position: relative;
+}
+
+#detail img {
+    max-width: 50vw;
+    max-height: 100vh;
+    position: absolute;
+
+    top: 0;
+    right: 0;
+}
+/* #endregion */
